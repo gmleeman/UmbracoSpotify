@@ -115,13 +115,13 @@ namespace UmbracoSpotify.Web.Controllers
                 criteriaSpotify.IsNextPage = false;
                 if (searchResults != null)
                 {
-                    if (searchResults.albums == null ? false : searchResults.albums.items.Count == criteriaSpotify.PageSize)
+                    if (searchResults.albums == null ? false : searchResults.albums.next!=null)
                         criteriaSpotify.IsNextPage = true;
-                    if (searchResults.artists == null ? false : searchResults.artists.items.Count == criteriaSpotify.PageSize)
+                    if (searchResults.artists == null ? false : searchResults.artists.next != null)
                         criteriaSpotify.IsNextPage = true;
-                    if (searchResults.playlists == null ? false : searchResults.playlists.items.Count == criteriaSpotify.PageSize)
+                    if (searchResults.playlists == null ? false : searchResults.playlists.next != null)
                         criteriaSpotify.IsNextPage = true;
-                    if (searchResults.tracks == null ? false : searchResults.tracks.items.Count == criteriaSpotify.PageSize)
+                    if (searchResults.tracks == null ? false : searchResults.tracks.next != null)
                         criteriaSpotify.IsNextPage = true;
                 }
 
