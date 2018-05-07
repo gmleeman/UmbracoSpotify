@@ -1,12 +1,14 @@
-﻿@using UmbracoSpotify.Web.Controllers
-@using UmbracoSpotify.Spotify
-@using UmbracoSpotify.Recommendations;
+﻿@using UmbracoSpotify.Recommendations;
 @using Umbraco.Web.Models;
 @inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoSpotify.Web.Models.SearchCriteriaModel>
 @{
     Layout = "Master.cshtml";
     RelatedLink nextLink = Umbraco.AssignedContentItem.GetPropertyValue<IEnumerable<RelatedLink>>("mainLink").FirstOrDefault();
 }
+
+@* Left some hard coded values in this page, there are problems with Umbraco content in this page *@
+
+
 <html>
 <body>
     <div>
@@ -65,7 +67,9 @@
                 <div class="col-md-6">
                     @if (nextLink != null && !string.IsNullOrEmpty(nextLink.Link))
                     {
-                        <a href="@nextLink.Link" class="submit btn btn-primary btn-lg">@nextLink.Caption</a>
+                        @*<a href="@nextLink.Link" class="submit btn btn-primary btn-lg">@nextLink.Caption</a>*@
+
+                        <a href="/favourites" class="submit btn btn-primary btn-lg">Refine favourites</a>
                     }
                 </div>
             </div>

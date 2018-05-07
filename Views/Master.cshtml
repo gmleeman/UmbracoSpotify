@@ -23,7 +23,7 @@
     <div id="header-container">
         <header class="wrapper clearfix">
             <h1 id="title">@Umbraco.Field("pageTitle", altFieldAlias: "pageName")</h1>
-            <p id="subtitle">@Umbraco.Field("subTitle", encoding: RenderFieldEncodingType.Html)</p>
+            <p id="subtitle">@Umbraco.Field("subTitle")</p>
         </header>
     </div>
 
@@ -31,7 +31,7 @@
 
     <div id="footer-container">
         <footer class="wrapper">
-            <h3>@Umbraco.Field("footerText")</h3>
+            @*<h3>@Umbraco.Field("footerText")</h3>*@
         </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

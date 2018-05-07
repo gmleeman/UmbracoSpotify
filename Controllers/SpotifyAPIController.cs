@@ -48,6 +48,11 @@ namespace UmbracoSpotify.Web.Controllers
             return Request.CreateResponse(System.Net.HttpStatusCode.OK, user);
         }
 
+        /// <summary>
+        /// Can use Get or Post.  Post might be easier with so many criteria values to choose from.
+        /// </summary>
+        /// <param name="recCriteria"></param>
+        /// <returns></returns>
         [HttpPost]
         public HttpResponseMessage GetSpotifyRecommendations(RecommendationCriteriaBase recCriteria)
         {
@@ -55,6 +60,7 @@ namespace UmbracoSpotify.Web.Controllers
             SpotifyRecommendations recs = new SpotifyRecommendations();
 
             // currently returns an empty class
+            // These calls should use async await to free up resources on the Server
 
             return Request.CreateResponse(System.Net.HttpStatusCode.OK, recs);
         }
