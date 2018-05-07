@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoSpotify.Web.Models.SpotifyUserInfoModel>
+@using Umbraco.Web.Models;
+@{
+    Layout = "Master.cshtml";
+    RelatedLink nextLink = Umbraco.AssignedContentItem.GetPropertyValue<IEnumerable<RelatedLink>>("mainLink").FirstOrDefault();
+}
+
+@using (Html.BeginUmbracoForm("Index", "Connected"))
+{
+    <div class="row">
+        <div class="col-md-6">
+            @if (nextLink != null && !string.IsNullOrEmpty(nextLink.Link))
+            {
+                <a href="@nextLink.Link" class="submit btn btn-primary btn-lg">@nextLink.Caption</a>
+            }
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <p>Welcome <strong>@Html.DisplayFor(m => m.info.UserID)</strong>, your Playlists shown below:</p>
+            <p>
+                @if (Model.playlists != null)
+                {
+                    foreach (UmbracoSpotify.Spotify.Playlist plist in Model.playlists.Items)
+                    {
+                        @plist.Name;<br />
+                    }
+                }
+            </p>
+        </div>
+    </div>
+}

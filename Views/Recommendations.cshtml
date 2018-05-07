@@ -1,0 +1,94 @@
+﻿@using UmbracoSpotify.Web.Controllers
+@using UmbracoSpotify.Spotify
+@using UmbracoSpotify.Recommendations;
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoSpotify.Web.Models.SearchCriteriaModel>
+@{
+    Layout = "Master.cshtml";
+}
+<html>
+<body>
+    <div>
+        @using (Html.BeginUmbracoForm("Index", "Recommendations", FormMethod.Get))
+        {
+            <div class="row">
+                <div class="col-md-6">
+                    @Html.HiddenFor(m => m.SearchText)
+                    @Html.HiddenFor(m => m.ListAlbums)
+                    @Html.HiddenFor(m => m.ListArtists)
+                    @Html.HiddenFor(m => m.ListPlaylist)
+                    @Html.HiddenFor(m => m.ListTrack)
+
+                    @for (int ii = 0; ii < @Model.FavouriteTracks.Count(); ii++)
+                    {
+                        <p>
+                            @Html.HiddenFor(m => m.FavouriteTracks[ii].TrackID)
+                            Track @(ii + 1) - <strong> @Html.TextBoxFor(m => m.FavouriteTracks[ii].TrackName)</strong>
+                        </p>
+                    }
+
+                </div>
+                <div class="col-md-6">
+                    <input type="submit" value="Search again..." class="btn btn-primary btn-lg" />
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Modify these settings to fine tune your recommendations</p>
+                    <p>
+                        @Html.EditorFor(m => m.target_popularity)
+                        @Html.LabelFor(m => m.target_popularity)
+                    </p>
+                    <p>
+                        @Html.EditorFor(m => m.target_danceability)
+                        @Html.LabelFor(m => m.target_danceability)
+                    </p>
+                    <p>
+                        @Html.EditorFor(m => m.target_energy)
+                        @Html.LabelFor(m => m.target_energy)
+                    </p>
+                    <p>
+                        @Html.EditorFor(m => m.target_tempo)
+                        @Html.LabelFor(m => m.target_tempo)
+                    </p>
+                    <p>
+                        @Html.EditorFor(m => m.target_valence)
+                        @Html.LabelFor(m => m.target_valence)
+                    </p>
+                    <p>
+                        @Html.EditorFor(m => m.seed_genres)
+                        @Html.LabelFor(m => m.seed_genres)
+                    </p>
+                </div>
+            </div>
+        }
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>Recommended tracks for you</strong></p>
+
+                @if (ViewBag.Recommendations != null && ((SpotifyRecommendations)ViewBag.Recommendations).tracks != null)
+                {
+                    foreach (Track track in ((SpotifyRecommendations)ViewBag.Recommendations).tracks)
+                    {
+                        <a href=@track.external_urls.spotify>(@track.artists.First().name) @track.name</a><br />
+                    }
+                }
+            </div>
+            <div class="col-md-6">
+                <p><strong>Genres to choose from, type these in manually</strong></p>
+                @if (ViewBag.GenreList != null && ((List<string>)ViewBag.GenreList) != null)
+                {
+                    foreach (string genre in ((List<string>)ViewBag.GenreList))
+                    {
+                        @genre<br />
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+    Layout = "Master.cshtml";
+}
+
+<script type="text/javascript" language="javascript">
+    var callURL = window.location.href;
+    callURL = callURL.replace('#', '?');
+    if (callURL !== window.location.href) {
+        location.replace(callURL);
+    }
+</script>
+
+@* Catch the callback URL from Spotify and send back to Controller for caching the Tokens *@
+@using (Html.BeginUmbracoForm<UmbracoSpotify.Web.Controllers.CallbackController>("Callback", "Callback", new { @id = "AutoSubmitSpotifyCallBack" }, FormMethod.Post))
+{
+    @*<input id="btnAutoSubmitSpotify" type="submit" class="btn btn-primary" value="Submit Auto" name="SubmitNow" />*@
+}
+
+<script type="text/javascript" language="javascript">
+    window.onload = function () {
+        document.forms['AutoSubmitSpotifyCallBack'].submit();
+    }
+</script>

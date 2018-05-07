@@ -1,0 +1,15 @@
+﻿ 2018-05-05 00:31:54,200 [P11248/D2/T65] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-05-04 00:31:54
+ 2018-05-05 01:55:51,730 [P11248/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-05-05 01:56:25,174 [P11248/D2/T180] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type callback matches a locally declared controller of type UmbracoSpotify.Web.Controllers.CallbackController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2018-05-05 01:56:26,345 [P11248/D2/T184] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type callback matches a locally declared controller of type UmbracoSpotify.Web.Controllers.CallbackController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2018-05-05 01:56:26,495 [P11248/D2/T182] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type callback matches a locally declared controller of type UmbracoSpotify.Web.Controllers.CallbackController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2018-05-05 01:56:28,353 [P11248/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-05-05 01:56:31,644 [P11248/D2/T182] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-05-05 01:56:36,135 [P11248/D2/T184] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-05-05 01:56:38,996 [P11248/D2/T182] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-05-05 01:56:42,644 [P11248/D2/T182] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-05-05 04:31:54,230 [P11248/D2/T196] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-05-04 04:31:54
+ 2018-05-05 08:31:54,269 [P11248/D2/T18] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-05-04 08:31:54
+ 2018-05-05 12:31:54,297 [P11248/D2/T264] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-05-04 12:31:54
+ 2018-05-05 16:31:54,323 [P11248/D2/T174] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-05-04 16:31:54
+ 2018-05-05 20:31:54,358 [P11248/D2/T102] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-05-04 20:31:54

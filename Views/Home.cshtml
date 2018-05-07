@@ -1,0 +1,13 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Umbraco.Web.Models;
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+    RelatedLink nextLink = Umbraco.AssignedContentItem.GetPropertyValue<IEnumerable<RelatedLink>>("mainLink").FirstOrDefault();
+}
+
+
+@if (nextLink != null && !string.IsNullOrEmpty(nextLink.Link))
+{
+    <a href="@nextLink.Link" class="submit btn btn-primary btn-lg">@nextLink.Caption</a>
+}

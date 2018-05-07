@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoSpotify.Web.Models.ConnectModel>
+@{
+	Layout = "Master.cshtml";
+}
+
+@using (Html.BeginUmbracoForm("Index","Connect"))
+{
+<p>@Umbraco.Field("buttonActionDescription")</p>
+<p><a href="@Model.ConnectURI" class="btn btn-primary btn-lg">@Umbraco.Field("caption", altText:"Login")</a></p>
+}

@@ -1,0 +1,115 @@
+﻿ 2018-04-25 21:12:20,933 [P10652/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.10.3 application starting on AORUS_X5
+ 2018-04-25 21:12:20,952 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-25 21:12:20,960 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 8ms)
+ 2018-04-25 21:12:21,008 [P10652/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-25 21:12:21,010 [P10652/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-25 21:12:21,011 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:12:21,382 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 371ms)
+ 2018-04-25 21:12:21,382 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-25 21:12:21,384 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 1ms)
+ 2018-04-25 21:12:21,431 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:12:21,431 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:12:21,432 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-25 21:12:21,432 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-04-25 21:12:21,432 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:12:21,433 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:12:21,433 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-25 21:12:21,434 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2018-04-25 21:12:21,445 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:12:21,445 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:12:21,445 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-25 21:12:21,446 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2018-04-25 21:12:21,446 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:12:21,447 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:12:21,447 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-25 21:12:21,448 [P10652/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2018-04-25 21:12:22,895 [P10652/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-25 21:12:23,186 [P10652/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-25 21:12:23,390 [P10652/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-25 21:12:23,390 [P10652/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-25 21:12:23,466 [P10652/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 2624ms)
+ 2018-04-25 21:12:24,906 [P10652/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:10542/umbraco
+ 2018-04-25 21:12:24,907 [P10652/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:10542/umbraco (UmbracoModule request)
+ 2018-04-25 21:12:25,329 [P10652/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2018-04-25 21:12:25,332 [P10652/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-25 21:12:25,934 [P10652/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:12:25,934 [P10652/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:12:25,934 [P10652/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-25 21:12:25,935 [P10652/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2018-04-25 21:13:25,355 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:13:25,356 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:13:25,356 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-25 21:13:25,357 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2018-04-25 21:13:25,387 [P10652/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-24 21:13:25
+ 2018-04-25 21:14:07,376 [P10652/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:14:07,376 [P10652/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:14:07,377 [P10652/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-25 21:14:07,377 [P10652/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-04-25 21:14:07,517 [P10652/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:14:07,519 [P10652/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-25 21:14:07,521 [P10652/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-04-25 21:14:07,522 [P10652/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2018-04-25 21:14:26,436 [P10652/D2/T20] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username umbraco@39th.com.au from IP address ::1
+ 2018-04-25 21:14:26,438 [P10652/D2/T20] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: umbraco@39th.com.au logged in from IP address ::1
+ 2018-04-25 21:14:26,988 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:14:26,988 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:14:26,988 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-04-25 21:14:26,989 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2018-04-25 21:14:27,004 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:14:27,004 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:14:27,004 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-25 21:14:27,004 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-04-25 21:14:27,007 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:14:27,008 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:14:27,008 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-04-25 21:14:27,008 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2018-04-25 21:14:27,025 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:14:27,025 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:14:27,025 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-04-25 21:14:27,026 [P10652/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2018-04-25 21:14:31,527 [P10652/D2/T21] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 21:14:31,528 [P10652/D2/T21] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 21:14:31,528 [P10652/D2/T21] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2018-04-25 21:14:31,537 [P10652/D2/T21] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 8ms)
+ 2018-04-25 21:33:57,177 [P10652/D2/T149] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: umbraco@39th.com.au, IP Address: ::1
+ 2018-04-25 22:38:59,465 [P10652/D2/T170] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username umbraco@39th.com.au from IP address ::1
+ 2018-04-25 22:38:59,465 [P10652/D2/T170] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: umbraco@39th.com.au logged in from IP address ::1
+ 2018-04-25 22:42:49,460 [P10652/D2/T189] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 22:42:49,461 [P10652/D2/T189] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 22:42:49,461 [P10652/D2/T189] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2018-04-25 22:42:49,465 [P10652/D2/T189] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 4ms)
+ 2018-04-25 22:42:49,537 [P10652/D2/T189] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-25 22:42:49,537 [P10652/D2/T189] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-25 22:42:49,537 [P10652/D2/T189] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2018-04-25 22:42:49,541 [P10652/D2/T189] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 4ms)
+ 2018-04-25 22:45:46,815 [P10652/D2/T195] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 22:46:01,445 [P10652/D2/T195] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 22:46:30,633 [P10652/D2/T196] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 22:47:11,171 [P10652/D2/T204] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 22:47:14,560 [P10652/D2/T222] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 22:47:50,706 [P10652/D2/T237] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 22:48:52,760 [P10652/D2/T212] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '0' has been published.
+ 2018-04-25 22:48:57,116 [P10652/D2/T206] INFO  umbraco.content - Save Xml to file...
+ 2018-04-25 22:48:57,120 [P10652/D2/T206] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-25 22:49:08,568 [P10652/D2/T237] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:08:39,559 [P10652/D2/T50] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: umbraco@39th.com.au, IP Address: ::1
+ 2018-04-25 23:40:24,729 [P10652/D2/T168] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username umbraco@39th.com.au from IP address ::1
+ 2018-04-25 23:40:24,730 [P10652/D2/T168] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: umbraco@39th.com.au logged in from IP address ::1
+ 2018-04-25 23:40:50,366 [P10652/D2/T156] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:47:24,010 [P10652/D2/T180] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:48:39,493 [P10652/D2/T134] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:49:10,025 [P10652/D2/T190] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:54:59,997 [P10652/D2/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1067' has been published.
+ 2018-04-25 23:55:04,208 [P10652/D2/T202] INFO  umbraco.content - Save Xml to file...
+ 2018-04-25 23:55:04,210 [P10652/D2/T202] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-25 23:57:11,247 [P10652/D2/T213] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:57:52,502 [P10652/D2/T323] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:58:40,640 [P10652/D2/T134] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:58:46,620 [P10652/D2/T329] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:58:51,629 [P10652/D2/T326] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:58:57,154 [P10652/D2/T329] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:59:16,661 [P10652/D2/T315] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:59:46,077 [P10652/D2/T319] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:59:53,076 [P10652/D2/T319] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:59:53,139 [P10652/D2/T308] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-25 23:59:53,145 [P10652/D2/T305] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
