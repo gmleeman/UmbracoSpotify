@@ -1,9 +1,11 @@
 ﻿@using UmbracoSpotify.Web.Controllers
 @using UmbracoSpotify.Spotify
 @using UmbracoSpotify.Recommendations;
+@using Umbraco.Web.Models;
 @inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoSpotify.Web.Models.SearchCriteriaModel>
 @{
     Layout = "Master.cshtml";
+    RelatedLink nextLink = Umbraco.AssignedContentItem.GetPropertyValue<IEnumerable<RelatedLink>>("mainLink").FirstOrDefault();
 }
 <html>
 <body>
@@ -59,6 +61,12 @@
                         @Html.EditorFor(m => m.seed_genres)
                         @Html.LabelFor(m => m.seed_genres)
                     </p>
+                </div>
+                <div class="col-md-6">
+                    @if (nextLink != null && !string.IsNullOrEmpty(nextLink.Link))
+                    {
+                        <a href="@nextLink.Link" class="submit btn btn-primary btn-lg">@nextLink.Caption</a>
+                    }
                 </div>
             </div>
         }

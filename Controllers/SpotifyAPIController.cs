@@ -32,7 +32,7 @@ namespace UmbracoSpotify.Web.Controllers
         [HttpGet]
         public HttpResponseMessage ConnectToSpotify()
         {
-            string sMsg = "Connected.  Returning 'token' here for reuse in the next end points";
+            string sMsg = "Connected.  Returning 'token' here for reuse in the Header in next end points";
             return Request.CreateResponse(System.Net.HttpStatusCode.OK,  sMsg);
         }
 
@@ -52,8 +52,9 @@ namespace UmbracoSpotify.Web.Controllers
         public HttpResponseMessage GetSpotifyRecommendations(RecommendationCriteriaBase recCriteria)
         {
 
-            RecommendationCriteriaBase recs = new RecommendationCriteriaBase();
+            SpotifyRecommendations recs = new SpotifyRecommendations();
 
+            // currently returns an empty class
 
             return Request.CreateResponse(System.Net.HttpStatusCode.OK, recs);
         }
