@@ -5,11 +5,10 @@ Notes:
 
 (Umbraco login credentials available upon request)
 
-No exception handling has been added yet.  I would use Log4net for logging any exceptions, so that they can be examined later.
+- AutoFac package used for Dependency injection
+- No exception handling has been added yet.  I would use Log4net for logging any exceptions, so that they can be examined later.  Also a dedicated landing page for exceptions that should be shown to the Web user (to some extent)
 
-Requirements:
-
-(Umbraco login credentials available upon request)
+Requirements from CloudNine:
 
 - The application should be built on top of Umbraco CMS. This is a free-to-use CMS, and we want all views, content (except for the content from Spotify), images and navigation to come from Umbraco rather than be hard-coded in the application.
 
